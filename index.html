@@ -1,49 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sri Harshini Bandaru | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Tu2F3JtR2XklfFokAxZMi4ZAcR9iVfKtEv6yRQgX41CFz4uR3F3NO+lMQSU4cxT+U9vxHpPGnSAzCZ47MFf4HA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
+
 <body>
-  <header>
-    <h1>Sri Harshini Bandaru</h1>
-    <p>Application Developer | AI Enthusiast | Full Stack Developer</p>
-    <a href="assets/Harshini_Bandaru_Application_Developer.pdf" download>Download Resume</a>
-  </header>
-
-  <section id="tech-stack">
-    <h2>Tech Stack</h2>
-    <ul>
-      <li><strong>Languages:</strong> Java, Python, C/C++, SQL, JavaScript, HTML/CSS, PHP</li>
-      <li><strong>Frameworks & Tools:</strong> Spring Boot, Node.js, Angular, Git, Docker, AWS</li>
-      <li><strong>Methodologies:</strong> Agile, Scrum, Microservices</li>
-      <li><strong>Extras:</strong> Machine Learning, AI, Informatica</li>
+  <nav class="navbar">
+    <div class="navbar-left">Sri Harshini Bandaru </div>
+    <ul class="navbar-right">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#tech-stack">Tech Stack</a></li>
+      <li><a href="#projects">Projects</a></li>
     </ul>
-  </section>
+  </nav>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>RoboProf – University Chatbot</h3>
-      <p>SPARQL, Rasa | NLP-driven chatbot for answering university-related queries using knowledge graphs.</p>
-    </div>
-    <div class="project">
-      <h3>Hunger Pangs</h3>
-      <p>MEAN Stack | A web platform connecting food donors with people in need, using RESTful APIs and MongoDB.</p>
-    </div>
-    <div class="project">
-      <h3>Digital Volunteer App</h3>
-      <p>React.js, Node.js | Frontend contribution to a COVID-19 assistance platform. <a href="https://github.com/The-Digital-Volunteer/webapp">GitHub</a></p>
-    </div>
-  </section>
+  <section id="home" class="home-section">
+    <div class="home-container">
+      <img src="assets/profile.jpeg" alt="Profile Picture" class="profile-pic">
+      <div class="intro-text">
+        <h1>Hi, Bonjour! I'm Sri Harshini Bandaru</h1>
+        <p>Application Developer | AI Enthusiast | Full Stack Developer | Masters in CS </p>
+        <div class="icon-bar">
+          <a href="https://www.linkedin.com/in/sri-harshini-bandaru/" target="_blank">
+            <img src="assets/icons/linkedin.svg" alt="LinkedIn" />
+          </a>
+          <a href="mailto:bandarusriharshini@gmail.com" target="_blank">
+            <img src="assets/icons/gmail.svg" alt="Email" />
+          </a>
+          <a href="https://github.com/Sriluharshini" target="_blank">
+            <img src="assets/icons/github.svg" alt="GitHub" />
+          </a>
+          <a href="assets/Harshini_Bandaru_Application_Developer.pdf" download>
+            <img src="assets/icons/resume.svg" alt="Download Resume" title="Download Resume" />
+          </a>
+        </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:bandarusriharshini@gmail.com">bandarusriharshini@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/sri-harshini-bandaru/" target="_blank">LinkedIn Profile</a></p>
-    <p>GitHub: <a href="https://github.com/Sriluharshini" target="_blank">Sriluharshini</a></p>
-  </section>
+      </div>
+    </div>
+
+    <section id="about" style="text-align:center">
+      <h2>About Me</h2>
+      <div class="education-logo" style="text-align:center; margin-bottom: 10px;">
+
+      </div>
+      <div class="about-card">
+        <p>
+          I'm a Computer Science graduate with a Master’s in Applied Computer Science from Concordia University,
+          Montreal,
+          where I studied Design Patterns, Artificial Intelligence, and Advanced Programming.
+        </p>
+        <p>
+          I'm passionate about communication and creativity, I run a personal poetry blog, have built a live website for
+          a
+          law firm,
+          and actively participated in student leadership roles during my undergrad. I’ve received the “Young Achievers
+          Award,”
+          won a national gold medal for leadership skills, and earned accolades in elocution, debate, and cultural
+          competitions.
+        </p>
+        <p>Feel free to explore my creativity at my poetry blog
+          <a href="https://sriluharshini.wixsite.com/literature" target="_blank">
+            <img src="assets/icons/blog.svg" alt="BLOG" style="height: 25px;" />
+          </a>
+        </p>
+      </div>
+    </section>
+
+
+
+
+    <section id="experience" style="text-align:center">
+      <h2>Professional Experience</h2>
+
+      <div class="exp-card">
+        <img src="assets/accenture.png" alt="Accenture Logo" class="exp-logo" />
+        <div class="exp-content">
+          <h3>Application Development Associate</h3>
+          <p class="exp-duration">Accenture, India from Aug 2021 to Aug 2023</p>
+
+          <p class="project-description">
+            <strong>Description:</strong> Future Talent Platform is an internal project for upskilling Accenture
+            employees on the latest technologies through an interactive web-based learning environment.
+          </p>
+
+          <ul>
+            <li>Worked as a backend developer in a cross-functional Agile team of 40+ professionals for an internal
+              employment upskilling platform (AFTP).</li>
+            <li>Developed and maintained microservices (e.g., Learning Management, Leaderboard) using
+              <strong>Node.js</strong>, integrating with <strong>AWS services</strong> like Lambda, DynamoDB, S3, and
+              CodeCommit.
+            </li>
+            <li>Investigated and resolved regression, production, and security defects by analyzing microservice flows,
+              debugging root causes, and validating fixes via
+              <strong>Postman</strong> and <strong>CloudWatch</strong>.
+            </li>
+            <li>Delivered end-to-end fixes for language translation features across French, English, and German using
+              PK/SK logic with
+              <strong>DynamoDB</strong>.
+            </li>
+            <li>Designed and implemented pagination for group-based access reports within learning modules.</li>
+            <li>Built a new Discussion Board feature to enhance learner engagement.</li>
+            <li>Collaborated with leads and QA to ensure code quality through code reviews, pull requests, and
+              documentation updates <strong>Confluence</strong> pages.</li>
+            <li>Improved code coverage to 90%+ and resolved critical issues from <strong>SonarQube</strong> using JUnit
+              tests.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-card">
+        <img src="assets/cognizant.png" alt="Cognizant Logo" class="exp-logo" />
+        <div class="exp-content">
+          <h3>Software Trainee</h3>
+          <p class="exp-duration">Cognizant, India from April 2021 to July 2021</p>
+
+
+          <ul>
+            <li>Worked with Informatica Cloud and SQL-based ETL pipelines.</li>
+            <li>Designed scalable data flows integrating multiple heterogeneous sources</li>
+            <li>Participated in knowledge-sharing sessions and documentation for business rule validation and
+              integration workflows.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech-stack" style="text-align:center">
+      <h2>Tech Stack</h2>
+      <h3>Languages</h3>
+      <div class="tech-grid">
+        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+            alt="Java">
+          <p>Java</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+          <p>Python</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+          <p>C++</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JavaScript">
+          <p>JavaScript</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+          <p>HTML</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+          <p>CSS</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+          <p>PHP</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+          <p>MySQL</p>
+        </div>
+      </div>
+      <h3>Frameworks & Tools</h3>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot">
+          <p>Spring Boot</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+          <p>Node.js</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular">
+          <p>Angular</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+          <p>React</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+          <p>MongoDB</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+          <p>Docker</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+          <p>Git</p>
+        </div>
+        <div class="tech-item">
+          <img src="assets/AWS.png" alt="AWS">
+          <p>AWS</p>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman">
+          <p>Postman</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="projects" style="text-align:center">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="assets/roboProf.jpg" alt="RoboProf">
+          <div class="project-info">
+            <h3>RoboProf – University Chatbot</h3>
+            <p>SPARQL, Rasa | NLP-driven chatbot for answering university-related queries using knowledge graphs.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/hungerpangs.jpg" alt="Hunger Pangs">
+          <div class="project-info">
+            <h3>Hunger Pangs</h3>
+            <p>MEAN Stack | Platform connecting food donors with people in need using RESTful APIs and MongoDB.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/volunteer.png" alt="Digital Volunteer">
+          <div class="project-info">
+            <h3>Digital Volunteer App</h3>
+            <p>React.js, Node.js | Frontend contribution to a COVID-19 assistance platform.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/covid1.jpg" alt="COVID Detection">
+          <div class="project-info">
+            <h3>COVID Detection Using CNN</h3>
+            <p>Python, CNN | Developed image classification model to detect COVID-19 from Chest X-ray images.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/cvdl.jpg" alt="HarvestNet">
+          <div class="project-info">
+            <h3>HarvestNet – Crop Classification System </h3>
+            <p>CNNs, PyTorch, Computer Vision | Developed deep learning models (ResNet18, VGG-16, AlexNet-9) for fruit
+              and
+              vegetable image classification.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/hp.png" alt="House Price Prediction">
+          <div class="project-info">
+            <h3>House Price Predictor</h3>
+            <p>ML, Python, Flask | Engineered a web-based application that predicts house prices based on location,
+              size,
+              and market trends.
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="assets/enotif.png" alt="E-Notifier">
+          <div class="project-info">
+            <h3>E-Notifier – Android Mobile Application</h3>
+            <p>Android Studio, Java, Firebase| Android application which would discover the events happening in and
+              around the
+              institution.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
 </body>
+
 </html>
