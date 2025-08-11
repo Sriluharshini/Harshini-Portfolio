@@ -57,7 +57,15 @@ section { margin: 40px auto; max-width: 1000px; padding: 0 20px; scroll-margin-t
 .exp-logo{ width:60px; height:auto; margin-top:5px; }
 .exp-content h3{ margin:0; font-size:20px; color:#1a2e35; }
 .exp-duration{ font-size:14px; color:#666; margin:6px 0 15px; }
-.project-description{ font-size:15px; margin-bottom:15px; color:#444; }
+.project-description{ 
+  text-align: left;
+  padding-left: 0px;
+  margin-left: -40px;
+  line-height: 1.6;
+  font-size:15px;
+  margin-bottom:15px; 
+  color:#444; 
+}
 .exp-content ul {
   text-align: left;
   padding-left: 0px;
