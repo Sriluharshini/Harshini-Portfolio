@@ -18,14 +18,18 @@
 
 <body>
   <nav class="navbar">
-    <div class="navbar-left">Sri Harshini Bandaru </div>
-    <ul class="navbar-right">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#tech-stack">Tech Stack</a></li>
-      <li><a href="#projects">Projects</a></li>
-    </ul>
-  </nav>
+  <div class="navbar-left">Sri Harshini Bandaru</div>
+
+  <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+
+  <ul class="navbar-right" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#tech-stack">Tech Stack</a></li>
+    <li><a href="#projects">Projects</a></li>
+  </ul>
+</nav>
+
 
   <section id="home" class="home-section">
     <div class="home-container">
@@ -279,6 +283,11 @@
         </div>
       </div>
     </section>
+
+<script>
+function toggleMenu() {
+  document.getElementById("navLinks").classList.toggle("active");
+}    
 
 </body>
 
